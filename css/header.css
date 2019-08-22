@@ -1,0 +1,127 @@
+
+body {
+    font-family: 'Proxima Nova Rg';
+    background: #E5E5E5;
+}
+
+.container-fluid, .main__wrap {
+    max-width: 1920px;
+    padding: 0;
+}
+
+.container-fluid__nav {
+    background: #2C2C2C;
+}
+
+.container {
+    padding: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container__nav {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1116px;
+}
+
+.container-fluid__logo__contact {
+    max-width: 1920px;
+    background: #FFFFFF;
+}
+
+.container__logo__contact {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1116px;
+    min-height: 59px;
+}
+.content__max__width {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1116px;
+}
+.container-fluid__header__title {
+    background: url("../img/header-img-bg.png") no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+.header__title__container {
+    padding-top: 100px;
+    padding-bottom: 168px;
+    padding-left: 45px;
+}
+.header__title__h1 {
+    font-size: 45px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    font-weight: 600;
+}
+.main__title__h2 {
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #252935;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.main__title__h3 {
+    font-size: 22px;
+    line-height: 25px;
+    color: #252935;
+    font-weight: 600;
+}
+.title-h4 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #252935;
+    font-weight: 600;
+}
+.main__title__h5 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #252935;
+    font-weight: 600;
+}
+.header__description__container {
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #E1E1E1;
+}
+
+.header__breadcrumb {
+    background: #fff;
+    font-size: 15px;
+    line-height: 150%;
+    color: #2B84C8;
+    margin-top: 20px;
+}
+.fa-home {
+    color: #636363;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+.nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.container__logo__contact {
+    padding: 9px 20px;
+}
+.logo__contact__block1 {
+    display: flex;
+}
+.logo__contact__block1__item {
+    margin-right: 50px;
+}

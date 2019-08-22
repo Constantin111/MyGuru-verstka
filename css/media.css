@@ -1,0 +1,533 @@
+@media all  and (min-width: 1140px) {
+    .swiper-container.reviews__masters__slider {
+        display: none;
+    }
+}
+
+@media all  and (max-width: 1140px) {
+    .container-fluid__header__title {
+        background: url(../img/header-img-bg-992px.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .get__request__content__wrap {
+        padding-bottom: 40px;
+    }
+
+    .get__request__img__wrap {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .put__request {
+        background: url(../img/iphone-mockup-okorkmaz-992px.png) no-repeat;
+        background-size: cover;
+        padding-left: 25px;
+    }
+
+    .make__money, .faq__qwestion, .get__request, .actual__order, .reviews__masters, .completed__orders, .vacancy__spesials, .container-fluid__breadcrumb__container, .us__present {
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .us__present__about {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .us__present__about__items {
+        justify-content: space-between;
+        padding-right: 58px;
+        padding-left: 18px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .get__request__content__text:before {
+        top: 42%;
+    }
+
+    .get__request__content__text:after {
+        top: 35%;
+    }
+
+    .make__money__ditale__client__img1, .make__money__ditale__client__img2 {
+        max-width: 445px;
+    }
+
+    .reviews__masters__row__big {
+        display: none;
+    }
+
+    .reviews__masters__title {
+        margin-bottom: 50px;
+    }
+}
+
+@media all  and (max-width: 920px) {
+    .us__present__about__item__cont__icon {
+        right: 128px;
+    }
+
+    .us__present__about__item {
+        width: 290px;
+        max-width: 290px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .us__present__about__items {
+        justify-content: space-between;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media all  and (max-width: 760px) {
+    .header__title__h1 {
+        font-size: 40px;
+        padding-right: 40px;
+    }
+
+    .main__title__h2 {
+        font-size: 36px;
+    }
+
+    .us__present__item {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .us__present__about__items {
+        justify-content: center;
+        padding-right: 58px;
+        padding-left: 18px;
+    }
+
+    .us__present__about__item {
+        margin-bottom: 105px;
+    }
+
+    .us__present__about__item__cont__icon {
+        right: 109px;
+    }
+
+    .invite__cooperation__text__wrap {
+        margin-bottom: 30px;
+    }
+
+    .make__money__img__wrap {
+        padding-left: 32px;
+        position: relative;
+        height: 226px;
+        margin-top: 117px;
+    }
+
+    .make__money__h2 {
+        width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .make__money__client__detail {
+        margin-top: 150px;
+        margin-bottom: 66px;
+        flex-direction: column-reverse;
+    }
+
+    .make__money__ditale__client__text {
+        margin-bottom: 40px;
+    }
+
+    .make__money__ditale__client1, .make__money__ditale__img__wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .get__request__img__container img {
+        position: relative;
+        left: 0px;
+    }
+
+    .get__request__container {
+        padding-top: 60px;
+        padding-left: 25px;
+        background: #FEFEFE;
+    }
+
+    .get__request__content__wrap {
+        padding-bottom: 40px;
+        margin-bottom: -78px;
+    }
+
+    .put__request {
+        background: url(../img/iphone-mockup-okorkmaz-760px.png) no-repeat;
+        background-size: cover;
+        padding-left: 25px;
+    }
+
+    .get__request__img__920 {
+        display: none;
+    }
+
+    .get__request__img__760 {
+        display: block;
+    }
+
+    .put__request__title {
+        font-size: 45px;
+        margin-bottom: 70px;
+    }
+
+    .invite__cooperation__text_registration {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .reviews__masters__block__wrap {
+        margin-bottom: 70px;
+    }
+}
+
+@media all  and (max-width: 480px) {
+    .header__title__h1 {
+        font-size: 36px;
+        padding-right: 25px;
+        line-height: 37px;
+    }
+
+    .header__title__container {
+        padding-left: 25px;
+    }
+
+    .container-fluid__header__title {
+        background: url(../img/header-img-bg-480px.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .main__title__h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .us__present__about__item {
+        width: 290px;
+        max-width: 290px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .us__present__about__item__cont__icon {
+        right: 92px;
+    }
+
+    .us__present__about__items {
+        justify-content: center;
+        padding-right: 38px;
+        padding-left: 38px;
+    }
+
+    .container-fluid__invite__cooperation {
+        padding: 40px 10px;
+        margin-bottom: 69px;
+    }
+
+    .invite__cooperation__text__wrap {
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .invite__cooperation__text {
+        padding-left: 0px;
+    }
+
+    .make__money__container {
+        padding: 50px 10px 70px 10px;
+        background: #FEFEFE;
+    }
+
+    .make__money__order__cart {
+        max-width: 198px;
+    }
+
+    .make__money__order__cart img {
+        max-width: 198px;
+    }
+
+    .make__money__order__cart1 {
+        left: 13px;
+        top: 46px;
+    }
+
+    .make__money__order__cart2 {
+        left: 99px;
+        top: -30px;
+    }
+
+    .make__money__order__cart .order__cart__icon {
+        width: 28px;
+        height: 28px;
+        max-width: 28px;
+    }
+
+    .make__money__order__cart .order__cart__icon img {
+        height: auto;
+        max-width: 11px;
+    }
+
+    .make__money__img__wrap {
+        margin-top: 70px;
+        height: 80px;
+    }
+
+    .faq__qwestion__container {
+        padding: 15px 15px;
+    }
+
+    .get__request__title {
+        margin-bottom: 49px;
+    }
+
+    .get__request__content__container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+        justify-content: center;
+    }
+
+    .get__request__content__number {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+
+    .get__request__content__text {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 10px;
+    }
+
+    .get__request__content__number {
+        display: flex;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .get__request__content__number__line:before {
+        content: ;
+        position: absolute;
+        width: 1px;
+        height: 104px;
+        background: url(../img/Line-dotted.png) no-repeat;
+        left: 18px;
+        bottom: -119px;
+    }
+
+    .get__request__content__text:before {
+        top: -10px;
+        left: calc(50% - 10px);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(45deg);
+    }
+
+    .get__request__content__text:after {
+        top: 0;
+        left: 44%;
+        width: 40px;
+        height: 20px;
+    }
+
+    .get__request__container {
+        padding-left: 0;
+    }
+
+    .get__request__img__760 {
+        display: none;
+    }
+
+    .get__request__img__480 {
+        display: block;
+    }
+
+    .get__request__img__container img {
+        position: relative;
+        left: -39px;
+    }
+
+    .put__request__title {
+        font-size: 40px;
+        line-height: 37px;
+    }
+
+    .put__request__text p {
+        font-size: 26px;
+        line-height: 125%;
+        color: #FEFEFE;
+    }
+
+    .put__request {
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+
+    .actual__order__price {
+        text-align: left;
+    }
+
+    .actual__order__block {
+        padding: 20px;
+    }
+
+    .actual__order__data {
+        display: none;
+    }
+
+    .actual__order__data__bottom {
+        display: block;
+        text-align: left;
+        font-size: 16px;
+        line-height: 26px;
+        color: #D1D1D1;
+        margin-top: 20px;
+    }
+
+    .actual__order__title, .actual__order__price, .actual__order__adres, .actual__order__data {
+        padding-left: 0;
+    }
+
+    .actual__order__price {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .reviews__masters__block__wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+
+    .completed__orders__block__take2 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .make__money, .faq__qwestion, .get__request, .actual__order, .reviews__masters, .completed__orders, .vacancy__spesials, .container-fluid__breadcrumb__container, .us__present {
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: hidden;
+        max-width: 100%;
+    }
+}
+
+@media all  and (max-width: 375px) {
+    .header__title__h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .header__description__container {
+        line-height: 19px;
+    }
+    .main__title__h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .us__present__about {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .us__present__about__items {
+        justify-content: center;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .us__present__about__item {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 70px;
+    }
+    .make__money__order__cart {
+        max-width: 136px;
+    }
+    .make__money__order__cart img {
+        max-width: 136px;
+    }
+    .make__money__order__cart1 {
+        left: 0px;
+        top: 10px;
+    }
+    .make__money__order__cart2 {
+        left: 65px;
+        top: -43px;
+    }
+    .make__money__client__detail {
+        margin-top: 70px;
+    }
+    .title-h4 {
+        font-size: 22px;
+    }
+    .make__money__ditale__client__content1 {
+        padding-left: 0px;
+    }
+    .invite__cooperation__button {
+        font-size: 18px;
+    }
+    .put__request__container {
+        padding-left: 0px;
+    }
+    .get__request__img__760,.get__request__img__480 {
+        display: none;
+    }
+    .get__request__img__320 {
+        display: block;
+    }
+    get__request__img__container img {
+        position: relative;
+        left: -25px;
+    }
+    .put__request__title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .put__request__text p {
+        font-size: 24px;
+        line-height: 125%;
+    }
+    .put__request {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .invite__cooperation__button {
+        padding: 17px 38px;
+        margin-left: 20px;
+    }
+    .put__request {
+        background: url(../img/iphone-mockup-okorkmaz-320px.png) no-repeat;
+        background-size: cover;
+    }
+    .reviews__masters__tag__link {
+        display: none;
+    }
+    .completed__orders__title {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .completed__orders__block__wrap {
+        padding: 30px 10px 35px 10px;
+    }
+    .completed__orders__block__take1
+}
