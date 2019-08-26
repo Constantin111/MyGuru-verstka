@@ -538,9 +538,12 @@
     -moz-box-shadow: 0px 10px 50px rgba(26, 107, 171, 0.1);
     box-shadow: 0px 10px 50px rgba(26, 107, 171, 0.1);
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 130px;
     margin-left: auto;
     margin-right: auto;
+}
+.reviews__masters__block__wrap:last-child {
+    margin-bottom: 70px;
 }
 .swiper-slide .reviews__masters__block__wrap {
     max-width: 702px;
