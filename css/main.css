@@ -167,6 +167,7 @@
 .make__money__h2 {
     width: 100%;
     margin-bottom: 142px;
+    margin-top: 10px;
 }
 .make__money__text__wrap {
     padding-right: 32px;
@@ -297,7 +298,7 @@
     border-bottom: none;
 }
 .faq__qwestion__h2 {
-    padding-top: 30px;
+    padding-top: 10px;
     margin-bottom: 78px;
 }
 .faq__qwestion__text {
@@ -339,7 +340,12 @@
     box-shadow: 0 0 0 1px #2C82C9;
     margin-right: 34px;
     position: relative;
+    font-size: 28px;
+    line-height: 22px;
+    color: #FEFEFE;
+    font-weight: 600;
 }
+
 .get__request__content__text {
     background: #FEFEFE;
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -364,7 +370,7 @@
     width: 20px;
     height: 40px;
     left: 0px;
-    top: 34px;
+    top: calc(50% - 20px);
     background-color: #FEFEFE;
 
 }
@@ -375,7 +381,7 @@
     width: 20px;
     height: 20px;
     left: -7px;
-    top: 46px;
+    top: calc(50% - 10px);
     background-color: #FEFEFE;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -389,12 +395,17 @@
 .get__request__content__number__line:before {
      content: '';
      position: absolute;
-     width: 1px;
+     width: 2px;
      height: 104px;
-     background: url("../img/Line-dotted.png") no-repeat;
+     background: url("../img/Line-dotted.png") repeat-y;
      left: 18px;
      bottom: -119px;
  }
+.get__request__content__number__line2:before {
+    height: 135px;
+    bottom: -149px;
+}
+
 .get__request__content__number__line:after {
     content: '';
     position: absolute;
@@ -403,6 +414,9 @@
     background: url("../img/line-dotted-end.png") no-repeat;
     left: 16px;
     bottom: -125px;
+}
+.get__request__content__number__line2:after {
+    bottom: -152px;
 }
 
 .get__request__img__container img {
@@ -524,7 +538,7 @@
     -moz-box-shadow: 0px 10px 50px rgba(26, 107, 171, 0.1);
     box-shadow: 0px 10px 50px rgba(26, 107, 171, 0.1);
     text-align: center;
-    margin-bottom: 135px;
+    margin-bottom: 70px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -589,6 +603,9 @@
     -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
+}
+.completed__orders__title {
+    margin-bottom: 40px;
 }
 .completed__orders__h4 {
     color: #2C82C9;
@@ -656,6 +673,7 @@
 
 .vacancy__spesials__title {
     margin-bottom: 60px;
+    margin-top: 30px;
 }
 .vacancy__spesials__block__wrap {
     padding-left: 30px;
@@ -688,5 +706,18 @@
 .vacancy__spesials__link:hover {
     text-decoration: none;
     color: #252935;
+}
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    border: 1px solid #1A6BAB;
+    background: transparent;
+    opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #1A6BAB;
 }
 
